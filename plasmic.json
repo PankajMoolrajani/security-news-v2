@@ -39,6 +39,19 @@
           "cssFilePath": "plasmic/security_news/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "W50Sn-5bsy",
+          "name": "Profile",
+          "type": "managed",
+          "projectId": "vjmRVEavJCu7SC28WWBhV8",
+          "renderModuleFilePath": "plasmic/security_news/PlasmicProfile.tsx",
+          "importSpec": {
+            "modulePath": "Profile.tsx"
+          },
+          "cssFilePath": "plasmic/security_news/PlasmicProfile.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [],

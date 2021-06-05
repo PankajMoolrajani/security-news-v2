@@ -13,3 +13,6 @@
   font-size: 32px;
   padding: 32px;
 }
+.profile:global(.__wab_instance) {
+  position: relative;
+}
