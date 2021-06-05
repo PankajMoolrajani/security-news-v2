@@ -1,0 +1,61 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "vjmRVEavJCu7SC28WWBhV8",
+      "projectName": "security-news",
+      "version": "latest",
+      "cssFilePath": "plasmic/security_news/plasmic_security_news.module.css",
+      "components": [
+        {
+          "id": "S_td68rrSYtG",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "vjmRVEavJCu7SC28WWBhV8",
+          "renderModuleFilePath": "plasmic/security_news/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/security_news/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "projectApiToken": "eUagw4nl3OfvNdAaMeatZjPoN0gGJ3qUHlCSvhS3li4nNpCFItrYOBlSvBH7B2w9dGLdRhQ29C3zfexmA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "TuwxvZBi00fC",
+        "name": "Screen",
+        "projectId": "vjmRVEavJCu7SC28WWBhV8",
+        "contextFilePath": "plasmic/security_news/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.152",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.152/dist/plasmic.schema.json"
+}
